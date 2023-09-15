@@ -1,0 +1,15 @@
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\bin\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.deps.json
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\bin\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.dll
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\bin\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.pdb
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\bin\Debug\net6.0\Demo.CongNghePhanMem.Core.dll
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\bin\Debug\net6.0\Demo.CongNghePhanMem.Core.pdb
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.csproj.AssemblyReference.cache
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.AssemblyInfoInputs.cache
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.AssemblyInfo.cs
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.csproj.CoreCompileInputs.cache
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.csproj.CopyComplete
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.dll
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\refint\Demo.CongNghePhanMem.Infrastructure.dll
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\Demo.CongNghePhanMem.Infrastructure.pdb
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Infrastructure\obj\Debug\net6.0\ref\Demo.CongNghePhanMem.Infrastructure.dll

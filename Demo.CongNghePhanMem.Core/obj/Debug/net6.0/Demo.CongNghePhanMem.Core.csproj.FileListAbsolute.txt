@@ -1,0 +1,17 @@
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\bin\Debug\net6.0\Demo.CongNghePhanMem.Core.deps.json
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\bin\Debug\net6.0\Demo.CongNghePhanMem.Core.dll
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\bin\Debug\net6.0\Demo.CongNghePhanMem.Core.pdb
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.csproj.AssemblyReference.cache
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.AssemblyInfoInputs.cache
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.AssemblyInfo.cs
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.csproj.CoreCompileInputs.cache
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.dll
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\refint\Demo.CongNghePhanMem.Core.dll
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.pdb
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\ref\Demo.CongNghePhanMem.Core.dll
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.Resources.AccountVN.resources
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.Resources.ProviderVN.resources
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.Resources.ReceiptVN.resources
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.Resources.ResourceVN.resources
+D:\DemoCongNghePhanMem\Demo.CongNghePhanMem.Core\obj\Debug\net6.0\Demo.CongNghePhanMem.Core.csproj.GenerateResource.cache
