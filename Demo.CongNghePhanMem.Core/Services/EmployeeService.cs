@@ -121,8 +121,11 @@ namespace Demo.CongNghePhanMem.Core.Services
                 throw new ValidateException(StatusCodes.Status400BadRequest, Resources.ResourceVN.Validate_User_Input_Error, listValidate);
             }
 
-            var res = await base.InsertAsync(employeeCreateDto);
-            return res;
+            employee.EmployeeId = Guid.NewGuid();
+            employee.CreatedDate = DateTime.Now;
+
+            var rowsAffected = await _employeeRepository.InsertAsync(employee);
+            return rowsAffected;
         }
 
         /// <summary>

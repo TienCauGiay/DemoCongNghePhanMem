@@ -78,35 +78,6 @@ namespace Demo.CongNghePhanMem.Infrastructure.Repository
         }
 
         /// <summary>
-        /// Thêm mới 1 entities
-        /// </summary>
-        /// <param name="entity"></param>
-        /// <returns>Số hàng bị ảnh hưởng sau khi thêm</returns>
-        /// Created By: BNTIEN (17/06/2023)
-        public async Task<int> InsertAsync(TEntity entity)
-        {
-            var parameters = new DynamicParameters();
-            foreach (var prop in entity.GetType().GetProperties())
-            {
-                if (prop.Name.Contains($"{className}Id"))
-                {
-                    parameters.Add($"@{className}Id", Guid.NewGuid());
-                }
-                else if (prop.Name.Contains("CreatedDate"))
-                {
-                    parameters.Add($"@CreatedDate", DateTime.Now);
-                }
-                else
-                {
-                    parameters.Add($"@{prop.Name}", prop.GetValue(entity));
-                }
-            }
-
-            var rowsAffected = await _unitOfWork.Connection.ExecuteAsync("fix", parameters, commandType: CommandType.StoredProcedure, transaction: _unitOfWork.Transaction);
-            return rowsAffected;
-        }
-
-        /// <summary>
         /// Thêm mới nhiều entities
         /// </summary>
         /// <param name="entities"></param>
@@ -139,31 +110,6 @@ namespace Demo.CongNghePhanMem.Infrastructure.Repository
             }
 
             await _unitOfWork.Connection.ExecuteAsync(query, parameters, transaction: _unitOfWork.Transaction);
-        }
-
-        /// <summary>
-        /// Cập nhật thông tin entities
-        /// </summary>
-        /// <param name="entity"></param>
-        /// <param name="id"></param>
-        /// <returns>Số hàng bị ảnh hưởng sau khi sửa</returns>
-        /// Created By: BNTIEN (17/06/2023)
-        public async Task<int> UpdateAsync(TEntity entity, Guid id)
-        {
-            var parameters = new DynamicParameters();
-            foreach (var prop in entity.GetType().GetProperties())
-            {
-                if (prop.Name.Contains("ModifiedDate"))
-                {
-                    parameters.Add($"@ModifiedDate", DateTime.Now);
-                }
-                else
-                {
-                    parameters.Add($"@{prop.Name}", prop.GetValue(entity));
-                }
-            }
-            var rowsAffected = await _unitOfWork.Connection.ExecuteAsync("fix", parameters, commandType: CommandType.StoredProcedure, transaction: _unitOfWork.Transaction);
-            return rowsAffected;
         }
 
         /// <summary>
@@ -212,11 +158,11 @@ namespace Demo.CongNghePhanMem.Infrastructure.Repository
         /// Created By: BNTIEN (17/06/2023)
         public virtual async Task<int> DeleteAsync(Guid id)
         {
-            var parameters = new DynamicParameters();
-            parameters.Add("@id", id);
+            var query = $"delete from {className} WHERE {className}id = @id";
+            var parameters = new { id };
 
-            var rowsAffected = await _unitOfWork.Connection.ExecuteAsync("fix", parameters, commandType: CommandType.StoredProcedure, transaction: _unitOfWork.Transaction);
-            return rowsAffected;
+            var entity = await _unitOfWork.Connection.ExecuteAsync(query, parameters, transaction: _unitOfWork.Transaction);
+            return entity;
         }
 
         /// <summary>
@@ -249,6 +195,16 @@ namespace Demo.CongNghePhanMem.Infrastructure.Repository
             // Thay thế tất cả các chữ cái viết hoa bằng "_chữ_cái_viết_thường"
             string snakeCase = Regex.Replace(input, "(?<!^)([A-Z])", "_$1").ToLower();
             return snakeCase;
+        }
+
+        public virtual async Task<int> InsertAsync(TEntity entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual async Task<int> UpdateAsync(TEntity entity, Guid id)
+        {
+            throw new NotImplementedException();
         }
         #endregion
     }

@@ -521,11 +521,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj",
+      "projectUniqueName": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj",
       "projectName": "Demo.CongNghePhanMem.Core",
-      "projectPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj",
+      "projectPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\obj\\",
+      "outputPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

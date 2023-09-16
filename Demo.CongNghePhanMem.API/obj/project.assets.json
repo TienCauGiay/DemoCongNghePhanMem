@@ -1237,11 +1237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.API\\Demo.CongNghePhanMem.API.csproj",
+      "projectUniqueName": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.API\\Demo.CongNghePhanMem.API.csproj",
       "projectName": "Demo.CongNghePhanMem.API",
-      "projectPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.API\\Demo.CongNghePhanMem.API.csproj",
+      "projectPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.API\\Demo.CongNghePhanMem.API.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.API\\obj\\",
+      "outputPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1258,11 +1258,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj": {
-              "projectPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj"
+            "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj": {
+              "projectPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj"
             },
-            "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\Demo.CongNghePhanMem.Infrastructure.csproj": {
-              "projectPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\Demo.CongNghePhanMem.Infrastructure.csproj"
+            "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\Demo.CongNghePhanMem.Infrastructure.csproj": {
+              "projectPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\Demo.CongNghePhanMem.Infrastructure.csproj"
             }
           }
         }

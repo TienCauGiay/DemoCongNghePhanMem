@@ -1005,11 +1005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\Demo.CongNghePhanMem.Infrastructure.csproj",
+      "projectUniqueName": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\Demo.CongNghePhanMem.Infrastructure.csproj",
       "projectName": "Demo.CongNghePhanMem.Infrastructure",
-      "projectPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\Demo.CongNghePhanMem.Infrastructure.csproj",
+      "projectPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\Demo.CongNghePhanMem.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\obj\\",
+      "outputPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1026,8 +1026,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj": {
-              "projectPath": "D:\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj"
+            "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj": {
+              "projectPath": "F:\\DHGTVT\\Cong_Nghe_Phan_Mem\\demo\\DemoCongNghePhanMem\\Demo.CongNghePhanMem.Core\\Demo.CongNghePhanMem.Core.csproj"
             }
           }
         }

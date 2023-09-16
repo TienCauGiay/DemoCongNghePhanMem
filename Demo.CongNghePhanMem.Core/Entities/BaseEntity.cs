@@ -12,19 +12,19 @@ namespace Demo.CongNghePhanMem.Core.Entities
         /// <summary>
         /// Ngày tạo
         /// </summary>
-        public DateTime? createddate { get; set; }
+        public DateTime? CreatedDate { get; set; }
         /// <summary>
         /// Người tạo
         /// </summary>
-        public string? createdby { get; set; }
+        public string? CreatedBy { get; set; }
         /// <summary>
         /// Ngày sửa
         /// </summary>
-        public DateTime? modifieddate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
         /// <summary>
         /// Người sửa
         /// </summary>
-        public string? modifiedby { get; set; }
+        public string? ModifiedBy { get; set; }
         #endregion
     }
 }

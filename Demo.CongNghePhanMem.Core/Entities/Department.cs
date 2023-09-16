@@ -15,15 +15,15 @@ namespace Demo.CongNghePhanMem.Core.Entities
         /// <summary>
         /// Khóa chính
         /// </summary>
-        public Guid departmentid { get; set; }
+        public Guid DepartmentId { get; set; }
         /// <summary>
         /// Mã phòng ban
         /// </summary>
-        public string departmentdode { get; set; }
+        public string DepartmentCode { get; set; }
         /// <summary>
         /// Tên phòng ban
         /// </summary>
-        public string departmentname { get; set; }
+        public string DepartmentName { get; set; }
         #endregion
     }
 }
